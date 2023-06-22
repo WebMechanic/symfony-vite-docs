@@ -21,7 +21,7 @@ framework:
 
 ```
 
-You can also use the `asset()` twig function by specifing your asset file path relative to your root path (for compatibility reason with vite generated `manifest.json` file) specified in your `vite.config.js`.
+You can also use the `asset()` Twig function by specifing your asset file path relative to your root path (for compatibility with the Vite generated `manifest.json` file) specified in your `vite.config.js`.
 
 ```twig
 <body>
@@ -51,7 +51,7 @@ import.meta.glob([
 
 ## Multiple asset strategies
 
-if you want to use the asset twig function to serve assets from Vite but you want to serve other assets that come from another source you can define multiple strategies.
+if you want to use the [Twig asset function](https://symfony.com/doc/current/reference/twig_reference.html#asset) to serve assets from Vite but you want to serve other assets that come from another source you can define multiple strategies.
 
 ```yaml
 framework:

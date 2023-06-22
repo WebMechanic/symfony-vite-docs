@@ -20,7 +20,7 @@ In version v0.2.x, you have to specify your entry points in an array in your `vi
 +},
 ```
 
-this way you need to specify the named entry point in your twig functions.
+this way you need to specify the named entry point in your Twig functions.
 
 ```diff
 -{{ vite_entry_script_tags('app.js') }}
